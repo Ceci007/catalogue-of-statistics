@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary, consistent-return */
 const getInputHints = (inputValue, objectList) => {
   let keysearch = [];
   if (inputValue.length < 2) { return []; }
@@ -30,6 +31,7 @@ const textToBigCurrency = numberText => (Math.abs(numberText) >= 1.0e+9
       : (Math.abs(numberText)).toFixed(2));
 
 const apiToKey = (api, array) => {
+  // eslint-disable-next-line
   const result = array.filter(option => {
     if (option.sort === api) {
       return true;
