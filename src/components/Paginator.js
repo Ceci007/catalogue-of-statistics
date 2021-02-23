@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { PropTypes } from 'prop-types';
-// import style from '../styles/Paginator.module.css';
+import style from '../styles/Paginator.module.css';
 import { ReactComponent as PagePrev } from '../assets/icons/pagePrev.svg';
 import { ReactComponent as PageNext } from '../assets/icons/pageNext.svg';
 
@@ -19,12 +19,7 @@ const Paginator = ({
       <PagePrev className={style.pageChange} />
     </a>
     <p>
-      Page
-      {page}
-      {' '}
-      /
-      {' '}
-      40
+      {`Page ${page}/40`}
     </p>
     <a
       role="button"

@@ -1,7 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import { getDate, isEven, textToBigCurrency } from '../helpers/componentHelp';
-// import style from '../styles/DataDetail.module.css';
+import style from '../styles/DataDetail.module.css';
 
 const DataDetail = ({
   data,

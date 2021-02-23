@@ -14,10 +14,6 @@ const CurrencyFilter = ({
       key: 'EUR',
       api: 'eur',
     },
-    {
-      key: 'GS',
-      api: 'gs',
-    },
   ];
 
   const handleChange = e => {

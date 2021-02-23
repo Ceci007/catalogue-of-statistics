@@ -1,0 +1,42 @@
+.currencyFilter {
+  position: absolute;
+  top: 45%;
+  left: 80%;
+  transform: translateX(-50%);
+}
+
+.currencyFilter select {
+  background: var(--primary-pink);
+  border: none;
+  width: 50px;
+  height: 1rem;
+  font-family: Lato, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align-last: center;
+  color: var(--white);
+}
+
+select option:checked,
+select option:hover {
+  box-shadow: 0 0 10px 100px #000 inset !important;
+  background: #000 !important;
+}
+
+select:focus > option:checked {
+  background: #000 !important;
+}
+
+select:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .currencyFilter select {
+    width: 3rem;
+  }
+}
