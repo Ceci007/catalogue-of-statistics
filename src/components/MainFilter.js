@@ -1,6 +1,6 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import style from '../styles/MainFilter.module.css';
+// import style from '../styles/MainFilter.module.css';
 import mainFilterCat from '../config/appConfig';
 
 const MainFilter = ({
