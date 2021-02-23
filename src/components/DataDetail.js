@@ -13,7 +13,7 @@ const DataDetail = ({
   const keys = Object.keys(data);
   if (keys.length > 1) {
     v1 = data[keys[0]];
-    k2 = getDate(data[keys[1]]); 
+    k2 = getDate(data[keys[1]]);
   } else {
     v1 = data[keys[0]];
     k2 = null;
