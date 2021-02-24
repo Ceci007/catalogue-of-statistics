@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# React Redux Capstone: Catalogue of Statistics 
+
+> Build the front-end of an application to organize a  browsable list of Crypto Assets that can be filtered and accessed to each Asset's details.
+
+![screenshot]()
+
+Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, total Volume in higher to lower order. Also, the user can filter by cryptocurrency name.
+
+## Built With
+
+- React.js, Redux, Webpack, Babel
+- HTML5/CSS3, Javascript ES6
+- ESlint, Stylelint
+- VSCode
+
+
+## Live Demo @Netlify
+
+[Live Demo Link]()
+
+## User Story:
+
+### User will access the URL
+- The Single page renders with main Cryptocurrencies ordered by market cap by default.
+- In the top center of the page navbar, the user will be able to select the filter options:
+        ○ Market Cap
+        ○ Circulating Supply
+        ○ 24h change vs. ATH%
+- Once the filter is selected, the page would render the top 5 cryptocurrencies with the main statistics showing in the main boxes, ordered from higher to lower statistical value.
+- In the top left of the page navbar, the user will select the coins' currency.
+- The Filtered options will be updated every minute.
+
+### User can click/tab on any Cryptocurrency
+- On Asset selected (click/tab) a new page will show displaying 
+        a. Market Cap
+        b. Last Price
+        c. Volume
+        d. ATH
+        e. High 24hs
+        f. Low 24hs
+
+## Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+To get a local copy up and running follow these simple example steps.
 
-In the project directory, you can run:
+### Prerequisites
+- To install the app in your system, make sure you have node/npm installed. [get npm](https://www.npmjs.com/get-npm)
 
-### `yarn start`
+### Setup
+- Clone the repository in your system by using: 
 
-Runs the app in the development mode.\
+``` git clone  ```
+
+## Install
+
+- Next step is to CD into the local repository and run:
+
+ ``` npm install ```
+
+### start development mode in your local environment
+
+``` npm start ```
+
+Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm build`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
+This command builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Run tests
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*   Run the test suite app for store actions with
+    ``` npm test ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Authors
 
-## Learn More
+👤 ***Cecilia Benitez***
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Github: [@Ceci007](https://github.com/Ceci007)
+- Twitter: [@CeciDeveloper](https://twitter.com/CeciDeveloper)
+- Linkedin: [LinkedIn](https://www.linkedin.com/in/cecilia-benítez)
+- Portfolio: [cecibenitez.com](https://www.cecibenitez.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+@microverseinc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](LICENSE) licensed.
