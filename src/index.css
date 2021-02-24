@@ -1,0 +1,63 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:root {
+  --soft-pink: #fb5092;
+  --white: #fff;
+  --dark-slate-pink: #b13968;
+  --primary-pink: #ec4c8b;
+  --dark-pink: #cf4278;
+  --regular-pink: #dd4883;
+  --black: #000;
+}
+
+/* Fonts for all componenets */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* Generic classes */
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexColEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 28px;
+  }
+}
