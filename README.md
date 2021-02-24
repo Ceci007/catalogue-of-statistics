@@ -20,6 +20,9 @@ Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, 
 
 [Live Demo Link](https://react-redux-capstone.netlify.app/)
 
+## Video Demo @YouTube
+[Video Demo](https://youtu.be/bS0a6h_Rd54)
+
 ## User Story:
 
 ### User will access the URL
